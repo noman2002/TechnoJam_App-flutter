@@ -57,8 +57,9 @@ class _HomePageState extends State<HomePage> {
             print(selectedIndex);
           });
         },
+        letIndexChange: (index) => true,
       ),
-      body:null,
+      body: null,
     );
   }
 }
