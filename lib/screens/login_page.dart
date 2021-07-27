@@ -9,13 +9,13 @@ class LoginPage extends StatefulWidget {
 
 class _LoginPageState extends State<LoginPage> {
   String _email = "", _password = "";
+  final _formKey = GlobalKey<FormState>();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFF233C4D),
       body: SingleChildScrollView(
         child: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
           children: [
             Padding(
               padding: const EdgeInsets.only(top: 70.0),
@@ -34,11 +34,12 @@ class _LoginPageState extends State<LoginPage> {
                 borderRadius: BorderRadius.circular(50),
               ),
               child: Form(
+                key: _formKey,
                 child: Padding(
                   padding:
-                      const EdgeInsets.symmetric(horizontal: 20, vertical: 10),
+                      const EdgeInsets.symmetric(horizontal: 20, vertical: 30),
                   child: Column(
-                    crossAxisAlignment: CrossAxisAlignment.stretch,
+                    // crossAxisAlignment: CrossAxisAlignment.start,
                     children: [
                       SizedBox(
                         height: 20,
@@ -96,7 +97,7 @@ class _LoginPageState extends State<LoginPage> {
                         },
                       ),
                       SizedBox(
-                        height: 20,
+                        height: 30,
                       ),
                       FloatingActionButton(
                         backgroundColor: Colors.pink,
