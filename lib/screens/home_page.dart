@@ -28,8 +28,10 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Color(0xFF233C4D),
       ),
       bottomNavigationBar: CurvedNavigationBar(
+        animationCurve: Curves.easeInOut,
+        animationDuration: Duration(milliseconds: 600),
         index: selectedIndex,
-        height: 50.0,
+        height: 60.0,
         buttonBackgroundColor: Colors.pink,
         // color: Color(0xFF82adc9),
         backgroundColor: Color(0xFF233C4D),
