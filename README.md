@@ -18,7 +18,7 @@ technical aspects of their education.
 
 ## screens
 - Login Screen
-- Home Screen ( discussion forum , chat window)
-
+- Home Screen ( Discussion forum , chat window)
+- Team Information
 
 
