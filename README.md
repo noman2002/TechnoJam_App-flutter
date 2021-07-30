@@ -1,4 +1,5 @@
 # TechnoJam_App
+ABOUT -
 TechnoJAM, the technology community
  of the School of Computer Science and Engineering Galgotias University 
 was established in 2015 with the aim of working on a variety of new 
@@ -14,7 +15,6 @@ technical intelligence of our institutional students, we organize
 conferences, Workshops, Hackathons, Techfest and many other competitions
  at various technical levels to attract students' interest in the 
 technical aspects of their education.
-
 
 
 
