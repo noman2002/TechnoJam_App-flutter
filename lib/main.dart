@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:technojam_app/screens/announcement_page.dart';
 import 'package:technojam_app/screens/login_page.dart';
 import 'package:technojam_app/screens/start_page.dart';
 
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(),
-      home: StartPage(),
+      home: AnnouncementPage(),
     );
   }
 }
