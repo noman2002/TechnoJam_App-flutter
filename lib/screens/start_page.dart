@@ -1,7 +1,6 @@
 import 'dart:async';
-
 import 'package:flutter/material.dart';
-import 'package:technojam_app/screens/home_page.dart';
+import 'package:technojam_app/screens/bottom_nav_bar.dart';
 
 class StartPage extends StatefulWidget {
   const StartPage({Key? key}) : super(key: key);
@@ -19,7 +18,7 @@ class _StartPageState extends State<StartPage> {
       () => Navigator.pushReplacement(
         context,
         MaterialPageRoute(
-          builder: (context) => HomePage(),
+          builder: (context) => NavBar(),
         ),
       ),
     );
