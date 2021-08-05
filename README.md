@@ -20,9 +20,11 @@ technical aspects of their education.
 
 
 ## screens
--Flash Screen
--Home Screen
-
+- Flash Screen
+- Home Screen
+- Announcement
+- Team Members
+- Settings
 
 
 
