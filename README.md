@@ -20,6 +20,8 @@ technical aspects of their education.
 
 
 ## screens
+-Flash Screen
+-Home Screen
 
 
 
