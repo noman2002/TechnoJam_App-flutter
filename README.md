@@ -19,7 +19,7 @@ at various technical levels to attract students' interest in the
 technical aspects of their education.
 
 
-## screens
+## Screens
 - Flash Screen
 - Home Screen
 - Announcement
