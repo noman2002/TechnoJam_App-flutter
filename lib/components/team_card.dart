@@ -16,40 +16,36 @@ class TeamCard extends StatelessWidget {
         borderRadius: BorderRadius.circular(15),
       ),
       elevation: 4.0,
-      child: Padding(
-        padding: const EdgeInsets.all(12.0),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Container(
-              decoration:
-                  BoxDecoration(borderRadius: BorderRadius.circular(20)),
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.width * 0.65,
-              child: ClipRRect(child: Image.network(imageUrl)),
-            ),
-            SizedBox(
-              height: 5,
-            ),
-            Text(
-              name,
-              style: TextStyle(
-                  color: Colors.pinkAccent,
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              desc,
-              style: TextStyle(color: Colors.black),
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
+      child: ListTile(
+        leading: Container(
+           child: ClipRRect(
+             borderRadius: BorderRadius.circular(6),
+             child: Image.network(
+               imageUrl,
+               fit: BoxFit.cover,
+             ),
+           ),
+         ),
+         title: Padding(
+           padding: const EdgeInsets.all(8.0),
+           child: Text(
+             name,
+            style: TextStyle(
+               fontSize: 16,
+               fontWeight: FontWeight.bold,
+             ),
+           ),
+         ),
+         subtitle: Text(
+          desc,
+           style: TextStyle(
+             fontSize: 16,
+             fontWeight: FontWeight.bold,
+           ),
+         ),
+       ),
     );
   }
 }
+
+
