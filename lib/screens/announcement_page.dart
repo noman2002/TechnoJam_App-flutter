@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:technojam_app/components/announcement_card.dart';
 
 class AnnouncementPage extends StatelessWidget {
   const AnnouncementPage({Key? key}) : super(key: key);
@@ -20,89 +21,3 @@ class AnnouncementPage extends StatelessWidget {
   }
 }
 
-class AnnouncementCard extends StatelessWidget {
-  const AnnouncementCard({
-    Key? key,
-    required this.imageUrl,
-    required this.title,
-    required this.desc,
-  }) : super(key: key);
-  final String imageUrl, title, desc;
-  @override
-  Widget build(BuildContext context) {
-    return Card(
-      margin: EdgeInsets.all(16),
-      shape: RoundedRectangleBorder(
-        borderRadius: BorderRadius.circular(15),
-      ),
-      // color: Colors.blueGrey,
-      elevation: 4.0,
-      child: Padding(
-        padding: const EdgeInsets.all(12.0),
-        child: Column(
-          mainAxisSize: MainAxisSize.min,
-          crossAxisAlignment: CrossAxisAlignment.center,
-          children: <Widget>[
-            Container(
-              decoration:
-                  BoxDecoration(borderRadius: BorderRadius.circular(20)),
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.width * 0.65,
-              child: ClipRRect(child: Image.network(imageUrl)),
-            ),
-            SizedBox(
-              height: 5,
-            ),
-            Text(
-              title,
-              style: TextStyle(
-                  color: Colors.pinkAccent,
-                  fontSize: 22,
-                  fontWeight: FontWeight.bold),
-            ),
-            SizedBox(
-              height: 10,
-            ),
-            Text(
-              desc,
-              style: TextStyle(color: Colors.black),
-              textAlign: TextAlign.center,
-            ),
-          ],
-        ),
-      ),
-    );
-  }
-}
-
-
-// ListTile(
-//         leading: Container(
-//           width: double.infinity,
-//           height: double.infinity,
-//           child: ClipRRect(
-//             borderRadius: BorderRadius.circular(6),
-//             child: Image.network(
-//               imageUrl,
-//               fit: BoxFit.cover,
-//             ),
-//           ),
-//         ),
-//         title: Padding(
-//           padding: const EdgeInsets.all(8.0),
-//           child: Text(
-//             title,
-//             style: TextStyle(
-//               fontSize: 16,
-//               fontWeight: FontWeight.bold,
-//             ),
-//           ),
-//         ),
-//         subtitle: Text(
-//           desc,
-//           style: TextStyle(
-//             fontSize: 16,
-//             fontWeight: FontWeight.bold,
-//           ),
-//         ),
-//       ),
