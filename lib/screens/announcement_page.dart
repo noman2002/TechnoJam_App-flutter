@@ -13,7 +13,7 @@ class AnnouncementPage extends StatelessWidget {
         backgroundColor: Color(0xFF233C4D),
       ),
       body: Container(
-        margin: EdgeInsets.symmetric(vertical: 20),
+        margin: EdgeInsets.symmetric(vertical: 16),
         child: SingleChildScrollView(
           child: Column(
             children: [

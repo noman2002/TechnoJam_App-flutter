@@ -13,15 +13,58 @@ class TeamPage extends StatelessWidget {
         backgroundColor: Color(0xFF233C4D),
       ),
       body: Container(
-        margin: EdgeInsets.symmetric(vertical: 20),
+        margin: EdgeInsets.symmetric(vertical: 16),
         child: SingleChildScrollView(
           child: Column(
             children: [
               TeamCard(
-                  imageUrl:
-                      "https://avatars.githubusercontent.com/u/54404474?v=4",
-                  name: "Noman",
-                  desc: "Flutter"),
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
+              TeamCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/54404474?v=4",
+                name: "Noman",
+                desc: "Flutter",
+              ),
             ],
           ),
         ),
