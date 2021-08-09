@@ -3,7 +3,7 @@
 
 ## ABOUT -
 
-TechnoJAM, the technology community
+TechnoJam, the technology community
  of the School of Computer Science and Engineering Galgotias University 
 was established in 2015 with the aim of working on a variety of new 
 projects that will give minds to creative thinking patterns for future 
@@ -19,10 +19,14 @@ at various technical levels to attract students' interest in the
 technical aspects of their education.
 
 
-## screens
-- Login Screen
-- Home Screen ( Discussion forum , chat window)
-- Team Information
+## Screens
+- Flash Screen - Simply the logo of the team (as a preloader).
+- Home Screen - 
+- Announcement -
+- Team Members -
+- Settings -
+
+
 
 
   
