@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:technojam_app/components/team_card.dart';
 
 class TeamPage extends StatelessWidget {
   const TeamPage({Key? key}) : super(key: key);
@@ -11,7 +12,20 @@ class TeamPage extends StatelessWidget {
         title: Text("Team"),
         backgroundColor: Color(0xFF233C4D),
       ),
-      body: null,
+      body: Container(
+        margin: EdgeInsets.symmetric(vertical: 20),
+        child: SingleChildScrollView(
+          child: Column(
+            children: [
+              TeamCard(
+                  imageUrl:
+                      "https://avatars.githubusercontent.com/u/54404474?v=4",
+                  name: "Noman",
+                  desc: "Flutter"),
+            ],
+          ),
+        ),
+      ),
     );
   }
 }
