@@ -30,23 +30,41 @@ class AnnouncementCard extends StatelessWidget {
   final String imageUrl, title, desc;
   @override
   Widget build(BuildContext context) {
-    return Padding(
-      padding: const EdgeInsets.all(8.0),
-      child: Container(
-        height: 300,
-        color: Colors.grey,
-        child: Container(
-          width: double.infinity,
-          child: Padding(
-            padding: const EdgeInsets.all(16.0),
-            child: ClipRRect(
-              borderRadius: BorderRadius.circular(6),
-              child: Image.network(
-                imageUrl,
-                fit: BoxFit.scaleDown,
-              ),
+    return Card(
+      color: Colors.blueGrey,
+      elevation: 4.0,
+      child: Padding(
+        padding: const EdgeInsets.all(12.0),
+        child: Column(
+          crossAxisAlignment: CrossAxisAlignment.center,
+          // mainAxisAlignment: MainAxisAlignment.center,
+          children: <Widget>[
+            Container(
+              decoration:
+                  BoxDecoration(borderRadius: BorderRadius.circular(20)),
+              width: MediaQuery.of(context).size.width,
+              height: MediaQuery.of(context).size.width * 0.65,
+              child: Image.network(imageUrl, fit: BoxFit.cover),
             ),
-          ),
+            SizedBox(
+              height: 5,
+            ),
+            Text(
+              title,
+              style: TextStyle(
+                  color: Colors.pinkAccent,
+                  fontSize: 22,
+                  fontWeight: FontWeight.bold),
+            ),
+            SizedBox(
+              height: 10,
+            ),
+            Text(
+              desc,
+              style: TextStyle(color: Colors.black),
+              textAlign: TextAlign.center,
+            ),
+          ],
         ),
       ),
     );
