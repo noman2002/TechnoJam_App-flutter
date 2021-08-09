@@ -19,21 +19,21 @@ class AnnouncementPage extends StatelessWidget {
             children: [
               AnnouncementCard(
                 imageUrl:
-                    "https://avatars.githubusercontent.com/u/54404474?v=4",
-                title: "Nhi bataunga",
-                desc: "jaaaaduuuuu",
+                    "https://avatars.githubusercontent.com/u/42677092?s=200&v=4",
+                title: "TechnoJam",
+                desc: "A tech community",
+              ),
+              AnnouncementCard(
+                imageUrl:
+                    "https://avatars.githubusercontent.com/u/73706697?v=4",
+                title: "Web",
+                desc: "Web development workshop",
               ),
               AnnouncementCard(
                 imageUrl:
                     "https://avatars.githubusercontent.com/u/54404474?v=4",
-                title: "Nhi bataunga",
-                desc: "jaaaaduuuuu",
-              ),
-              AnnouncementCard(
-                imageUrl:
-                    "https://avatars.githubusercontent.com/u/54404474?v=4",
-                title: "Nhi bataunga",
-                desc: "jaaaaduuuuu",
+                title: "Flutter",
+                desc: "Flutter development workshop",
               ),
             ],
           ),
