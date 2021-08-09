@@ -31,7 +31,7 @@ class AnnouncementCard extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Card(
-      color: Colors.blueGrey,
+      // color: Colors.blueGrey,
       elevation: 4.0,
       child: Padding(
         padding: const EdgeInsets.all(12.0),
@@ -42,9 +42,10 @@ class AnnouncementCard extends StatelessWidget {
             Container(
               decoration:
                   BoxDecoration(borderRadius: BorderRadius.circular(20)),
-              width: MediaQuery.of(context).size.width,
-              height: MediaQuery.of(context).size.width * 0.65,
-              child: Image.network(imageUrl, fit: BoxFit.cover),
+              // width: MediaQuery.of(context).size.width,
+              // height: MediaQuery.of(context).size.width * 0.65,
+              child:
+                  ClipRRect(child: Image.network(imageUrl, fit: BoxFit.cover)),
             ),
             SizedBox(
               height: 5,
