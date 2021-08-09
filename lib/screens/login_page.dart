@@ -72,6 +72,7 @@ class _LoginPageState extends State<LoginPage> {
                         // },
                         onSaved: (input) {
                           _email = input!;
+                          print(_email);
                         },
                       ),
                       SizedBox(
@@ -94,6 +95,7 @@ class _LoginPageState extends State<LoginPage> {
                         },
                         onSaved: (input) {
                           _password = input!;
+                          print(_password);
                         },
                       ),
                       SizedBox(
