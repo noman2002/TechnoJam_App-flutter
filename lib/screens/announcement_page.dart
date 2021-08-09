@@ -12,12 +12,23 @@ class AnnouncementPage extends StatelessWidget {
         title: Text("Announcements"),
         backgroundColor: Color(0xFF233C4D),
       ),
-      body: AnnouncementCard(
-        imageUrl: "https://avatars.githubusercontent.com/u/54404474?v=4",
-        title: "Nhi bataunga",
-        desc: "jaaaaduuuuu",
+      body: SingleChildScrollView(
+        child: Column(
+          
+          children: [
+            AnnouncementCard(
+              imageUrl: "https://avatars.githubusercontent.com/u/54404474?v=4",
+              title: "Nhi bataunga",
+              desc: "jaaaaduuuuu",
+            ),
+            AnnouncementCard(
+              imageUrl: "https://avatars.githubusercontent.com/u/54404474?v=4",
+              title: "Nhi bataunga",
+              desc: "jaaaaduuuuu",
+            ),
+          ],
+        ),
       ),
     );
   }
 }
-
