@@ -1,7 +1,7 @@
 
 # TechnoJam_App
 
-## ABOUT -
+## ABOUT 
 
 TechnoJam, the technology community
  of the School of Computer Science and Engineering Galgotias University 
