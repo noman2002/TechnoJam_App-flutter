@@ -22,7 +22,7 @@ technical aspects of their education.
 ## Screens
 
 - Flash Screen - Simply the logo of the team (as a preloader).
-- Home Screen - 
+- Home Screen 
 - Announcement -
 - Team Members -
 - Settings -
