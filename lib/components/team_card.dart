@@ -18,34 +18,49 @@ class TeamCard extends StatelessWidget {
       elevation: 4.0,
       child: ListTile(
         leading: Container(
-           child: ClipRRect(
-             borderRadius: BorderRadius.circular(6),
-             child: Image.network(
-               imageUrl,
-               fit: BoxFit.cover,
-             ),
-           ),
-         ),
-         title: Padding(
-           padding: const EdgeInsets.all(8.0),
-           child: Text(
-             name,
+          child: ClipRRect(
+            borderRadius: BorderRadius.circular(6),
+            child: Image.network(
+              imageUrl,
+              fit: BoxFit.cover,
+            ),
+          ),
+        ),
+        title: Padding(
+          padding: const EdgeInsets.all(8.0),
+          child: Text(
+            name,
             style: TextStyle(
-               fontSize: 16,
-               fontWeight: FontWeight.bold,
-             ),
-           ),
-         ),
-         subtitle: Text(
+              fontSize: 16,
+              fontWeight: FontWeight.bold,
+            ),
+          ),
+        ),
+        subtitle: Text(
           desc,
-           style: TextStyle(
-             fontSize: 16,
-             fontWeight: FontWeight.bold,
-           ),
-         ),
-       ),
+          style: TextStyle(
+            fontSize: 16,
+            fontWeight: FontWeight.bold,
+          ),
+        ),
+        trailing: Row(
+          mainAxisSize: MainAxisSize.min,
+          children: [
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12.0),
+              child: Image.asset(
+                "assets/images/Octocat.ico",
+              ),
+            ),
+            Padding(
+              padding: const EdgeInsets.symmetric(vertical: 12.0),
+              child: Image.asset(
+                "assets/images/Octocat.ico",
+              ),
+            ),
+          ],
+        ),
+      ),
     );
   }
 }
-
-
