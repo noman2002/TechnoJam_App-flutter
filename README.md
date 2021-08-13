@@ -1,7 +1,7 @@
 
 # TechnoJam_App
 
-## ABOUT -
+## ABOUT 
 
 TechnoJam, the technology community
  of the School of Computer Science and Engineering Galgotias University 
@@ -19,12 +19,15 @@ at various technical levels to attract students' interest in the
 technical aspects of their education.
 
 
+
+
 ## Screens
+
 - Flash Screen - Simply the logo of the team (as a preloader).
-- Home Screen - 
-- Announcement -
-- Team Members -
-- Settings -
+- Home Screen 
+- Announcement
+- Team Members
+- Settings
 
 
 
