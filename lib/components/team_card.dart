@@ -55,7 +55,7 @@ class TeamCard extends StatelessWidget {
             Padding(
               padding: const EdgeInsets.symmetric(vertical: 12.0),
               child: Image.asset(
-                "assets/images/Octocat.ico",
+                "assets/images/linkedin.ico",
               ),
             ),
           ],
