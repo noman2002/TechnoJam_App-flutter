@@ -21,10 +21,10 @@ class _GithubPageState extends State<GithubPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF233C4D),
         title: Text(
           "GitHub",
         ),
-        centerTitle: true,
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,

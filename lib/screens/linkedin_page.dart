@@ -21,10 +21,10 @@ class _LinkedPageState extends State<LinkedPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
+        backgroundColor: Color(0xFF233C4D),
         title: Text(
           "Linkedin",
         ),
-       
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
@@ -33,8 +33,7 @@ class _LinkedPageState extends State<LinkedPage> {
           initialUrl: widget.articleUrl,
           onWebViewCreated: ((WebViewController webViewController) {
             _completer.complete(webViewController);
-          }
-          ),
+          }),
         ),
       ),
     );
