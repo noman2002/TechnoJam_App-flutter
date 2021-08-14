@@ -24,7 +24,7 @@ class _LinkedPageState extends State<LinkedPage> {
         title: Text(
           "Linkedin",
         ),
-        centerTitle: true,
+       
       ),
       body: Container(
         height: MediaQuery.of(context).size.height,
