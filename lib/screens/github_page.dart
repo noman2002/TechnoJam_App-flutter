@@ -22,7 +22,7 @@ class _ArticlePageState extends State<ArticlePage> {
     return Scaffold(
       appBar: AppBar(
         title: Text(
-          "Linkedin",
+          "GitHub",
         ),
         centerTitle: true,
       ),
@@ -33,8 +33,7 @@ class _ArticlePageState extends State<ArticlePage> {
           initialUrl: widget.articleUrl,
           onWebViewCreated: ((WebViewController webViewController) {
             _completer.complete(webViewController);
-          }
-          ),
+          }),
         ),
       ),
     );
