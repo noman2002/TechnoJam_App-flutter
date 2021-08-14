@@ -6,8 +6,11 @@ class TeamCard extends StatelessWidget {
     required this.imageUrl,
     required this.name,
     required this.desc,
+    this.linkedUrl,
+    this.githubUrl,
   }) : super(key: key);
   final String imageUrl, name, desc;
+  final String? linkedUrl, githubUrl;
   @override
   Widget build(BuildContext context) {
     return Card(
