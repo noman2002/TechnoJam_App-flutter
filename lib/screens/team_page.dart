@@ -49,6 +49,7 @@ class TeamPage extends StatelessWidget {
                 name: "Noman",
                 desc: "Flutter",
               ),
+              
               TeamCard(
                 imageUrl:
                     "https://avatars.githubusercontent.com/u/54404474?v=4",
