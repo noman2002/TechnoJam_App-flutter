@@ -1,4 +1,6 @@
 import 'package:flutter/material.dart';
+import 'package:technojam_app/screens/github_page.dart';
+import 'package:technojam_app/screens/linkedin_page.dart';
 
 class TeamCard extends StatelessWidget {
   const TeamCard({
@@ -54,7 +56,7 @@ class TeamCard extends StatelessWidget {
                  Navigator.push(
             context,
             MaterialPageRoute(
-              builder: (context) => (articleUrl: url!),
+              builder: (context) => GithubPage(articleUrl: githubUrl!),
             ));
               },
               child: Padding(
@@ -65,10 +67,19 @@ class TeamCard extends StatelessWidget {
                 ),
               ),
             ),
-            Padding(
-              padding: const EdgeInsets.symmetric(vertical: 12.0),
-              child: Image.asset(
-                "assets/images/Linkedin.ico",
+            GestureDetector(
+              onTap: (){
+                 Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => LinkedPage(articleUrl: linkedUrl!),
+            ));
+              },
+              child: Padding(
+                padding: const EdgeInsets.symmetric(vertical: 12.0),
+                child: Image.asset(
+                  "assets/images/Linkedin.ico",
+                ),
               ),
             ),
           ],
