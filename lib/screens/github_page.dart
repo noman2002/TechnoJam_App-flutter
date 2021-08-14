@@ -2,8 +2,8 @@ import 'dart:async';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
-class ArticlePage extends StatefulWidget {
-  ArticlePage({
+class GithubPage extends StatefulWidget {
+  GithubPage({
     Key? key,
     required this.articleUrl,
   }) : super(key: key);
@@ -11,10 +11,10 @@ class ArticlePage extends StatefulWidget {
   final String articleUrl;
 
   @override
-  _ArticlePageState createState() => _ArticlePageState();
+  _GithubPageState createState() => _GithubPageState();
 }
 
-class _ArticlePageState extends State<ArticlePage> {
+class _GithubPageState extends State<GithubPage> {
   final Completer<WebViewController> _completer =
       Completer<WebViewController>();
   @override

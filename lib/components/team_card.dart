@@ -49,11 +49,20 @@ class TeamCard extends StatelessWidget {
         trailing: Row(
           mainAxisSize: MainAxisSize.min,
           children: [
-            Padding(
-              padding:
-                  const EdgeInsets.symmetric(vertical: 12.0, horizontal: 5),
-              child: Image.asset(
-                "assets/images/Octocat.ico",
+            GestureDetector(
+              onTap: (){
+                 Navigator.push(
+            context,
+            MaterialPageRoute(
+              builder: (context) => (articleUrl: url!),
+            ));
+              },
+              child: Padding(
+                padding:
+                    const EdgeInsets.symmetric(vertical: 12.0, horizontal: 5),
+                child: Image.asset(
+                  "assets/images/Octocat.ico",
+                ),
               ),
             ),
             Padding(
