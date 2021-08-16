@@ -1,5 +1,4 @@
 # TechnoJam_App
-
 ## ABOUT 
 
 TechnoJam, the technology community
