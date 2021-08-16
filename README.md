@@ -1,4 +1,3 @@
-
 # TechnoJam_App
 
 ## ABOUT 
