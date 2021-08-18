@@ -47,3 +47,4 @@ app.*.map.json
 
 #authentication
 /lib/firebase_auth/
+/android/app/google-services.json

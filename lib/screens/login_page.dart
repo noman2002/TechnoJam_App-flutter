@@ -179,7 +179,7 @@ class _LoginPageState extends State<LoginPage> {
                       FloatingActionButton(
                         backgroundColor: Colors.pink,
                         child: Icon(Icons.arrow_forward),
-                        onPressed: null,
+                        onPressed: login(),
                       ),
                     ],
                   ),
