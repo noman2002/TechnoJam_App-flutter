@@ -99,6 +99,20 @@ class _LoginPageState extends State<LoginPage> {
                         },
                       ),
                       SizedBox(
+                        height: 20,
+                      ),
+                      Row(
+                        mainAxisAlignment: MainAxisAlignment.end,
+                        children: [
+                          GestureDetector(
+                            onTap: (){},
+                            child: Text(
+                              "Forgot password ?",
+                            ),
+                          ),
+                        ],
+                      ),
+                      SizedBox(
                         height: 30,
                       ),
                       FloatingActionButton(
