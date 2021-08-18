@@ -14,13 +14,8 @@ class _LoginPageState extends State<LoginPage> {
   final _formKey = GlobalKey<FormState>();
   final FirebaseAuth _auth = FirebaseAuth.instance;
 
-  @override
-  void initState() {
-    super.initState();
-    this.checkAuthentication();
-  }
 
-  checkAuthentication() async {
+checkAuthentication() async {
     _auth.authStateChanges().listen((user) {
       if (user != null) {
         print(user);
@@ -37,6 +32,13 @@ class _LoginPageState extends State<LoginPage> {
       }
     });
   }
+  @override
+  void initState() {
+    super.initState();
+    this.checkAuthentication();
+  }
+
+  
 
   login() async {
     if (_formKey.currentState!.validate()) {
@@ -179,7 +181,7 @@ class _LoginPageState extends State<LoginPage> {
                       FloatingActionButton(
                         backgroundColor: Colors.pink,
                         child: Icon(Icons.arrow_forward),
-                        onPressed: login(),
+                        onPressed:()=> login(),
                       ),
                     ],
                   ),
