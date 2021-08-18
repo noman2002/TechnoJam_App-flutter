@@ -1,4 +1,6 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:technojam_app/screens/bottom_nav_bar.dart';
 
 class LoginPage extends StatefulWidget {
   LoginPage({Key? key}) : super(key: key);
@@ -10,6 +12,65 @@ class LoginPage extends StatefulWidget {
 class _LoginPageState extends State<LoginPage> {
   String _email = "", _password = "";
   final _formKey = GlobalKey<FormState>();
+  final FirebaseAuth _auth = FirebaseAuth.instance;
+
+  @override
+  void initState() {
+    super.initState();
+    this.checkAuthentication();
+  }
+
+  checkAuthentication() async {
+    _auth.authStateChanges().listen((user) {
+      if (user != null) {
+        print(user);
+        setState(() {});
+        Future.delayed(
+          Duration(milliseconds: 600),
+        );
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(
+            builder: (context) => NavBar(),
+          ),
+        );
+      }
+    });
+  }
+
+  login() async {
+    if (_formKey.currentState!.validate()) {
+      _formKey.currentState!.save();
+      try {
+        await _auth.signInWithEmailAndPassword(
+            email: _email, password: _password);
+
+        print("login successful");
+      } catch (e) {
+        showError(e.toString());
+        print(e);
+      }
+    }
+  }
+
+  showError(String errormessage) {
+    showDialog(
+        context: context,
+        builder: (BuildContext context) {
+          return AlertDialog(
+            title: Text('ERROR'),
+            content: Text(errormessage),
+            actions: <Widget>[
+              ElevatedButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: Text('OK'))
+            ],
+          );
+        });
+  }
+
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -105,7 +166,7 @@ class _LoginPageState extends State<LoginPage> {
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: [
                           GestureDetector(
-                            onTap: (){},
+                            onTap: () {},
                             child: Text(
                               "Forgot password ?",
                             ),
