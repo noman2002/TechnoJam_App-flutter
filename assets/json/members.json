@@ -1,24 +1,7 @@
 {
     "members": [
         {
-            "id": 1,
-            "name": "Md Noman Khan",
-            "desc": "Flutter Developer",
-            "imageUrl": "https://avatars.githubusercontent.com/u/54404474?v=4",
-            "githubUrl": "https://github.com/noman2002",
-            "linkedinUrl": "https://www.linkedin.com/in/noman-khan-3b9407183/"
-        },
-        {
-            "id": 2,
-            "name": "Aashima Wadhwa",
-            "desc": "Web Developer",
-            "imageUrl": "https://avatars.githubusercontent.com/u/73706697?v=4",
-            "githubUrl": "https://github.com/aashimawadhwa",
-            "linkedinUrl": "https://www.linkedin.com/in/aashima-wadhwa-0468771bb/"
-          
-        },
-        {
-            "id": 3,
+           
             "name": "Swetank",
             "desc": "OG Lead",
             "imageUrl": "https://avatars.githubusercontent.com/u/26973191?v=4",
@@ -26,13 +9,31 @@
             "linkedinUrl": "https://www.linkedin.com/in/radicalswetank/"
         },
         {
-            "id": 4,
-            "name": "bhaalu",
-            "desc": "soo rha h ",
+           
+            "name": "LazyCipher",
+            "desc": "Web Developer",
+            "imageUrl": "https://avatars.githubusercontent.com/u/17141301?v=4",
+            "githubUrl": "https://github.com/lazycipher",
+            "linkedinUrl": "https://www.linkedin.com/in/himanshu-singh16/"
+        },
+        {
+           
+            "name": "Md Noman Khan",
+            "desc": "Flutter Developer",
             "imageUrl": "https://avatars.githubusercontent.com/u/54404474?v=4",
             "githubUrl": "https://github.com/noman2002",
             "linkedinUrl": "https://www.linkedin.com/in/noman-khan-3b9407183/"
+        },
+        {
+           
+            "name": "Aashima Wadhwa",
+            "desc": "Web Developer",
+            "imageUrl": "https://avatars.githubusercontent.com/u/73706697?v=4",
+            "githubUrl": "https://github.com/aashimawadhwa",
+            "linkedinUrl": "https://www.linkedin.com/in/aashima-wadhwa-0468771bb/"
+          
         }
+       
         
     ]
 }
