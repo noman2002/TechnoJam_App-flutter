@@ -20,7 +20,7 @@ class _TeamPageState extends State<TeamPage> {
     final data = await json.decode(response);
     setState(() {
       _items = data["members"];
-      print("done");
+      print(_items);
     });
   }
 
@@ -28,7 +28,7 @@ class _TeamPageState extends State<TeamPage> {
   void initState() {
     super.initState();
 
-    this.readJson();
+    readJson();
   }
 
   @override
@@ -42,14 +42,19 @@ class _TeamPageState extends State<TeamPage> {
       body: Container(
         margin: EdgeInsets.symmetric(vertical: 16),
         child: SingleChildScrollView(
-          child: ListView.builder(
-            itemBuilder: (context, index) {
-              return TeamCard(
-                imageUrl: _items[index]["imageUrl"],
-                name: _items[index]["name"],
-                desc: _items[index]["desc"],
-              );
-            },
+          child: Column(
+            children: [
+              // ListView.builder(
+              //   itemCount: _items.length,
+              //   itemBuilder: (context, index) {
+              //     return TeamCard(
+              //       imageUrl: Text(_items[index]["imageUrl"]),
+              //       name: _items[index]["name"],
+              //       desc: _items[index]["desc"],
+              //     );
+              //   },
+              // ),
+            ],
           ),
         ),
       ),
