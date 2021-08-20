@@ -20,6 +20,7 @@ class _TeamPageState extends State<TeamPage> {
     final data = await json.decode(response);
     setState(() {
       _items = data["members"];
+      print("done");
     });
   }
 
