@@ -8,11 +8,11 @@ class TeamCard extends StatelessWidget {
     required this.name,
     required this.desc,
     this.imageUrl,
-    this.linkedUrl,
+    this.linkedinUrl,
     this.githubUrl,
   }) : super(key: key);
   final String name, desc;
-  final String? linkedUrl, githubUrl, imageUrl;
+  final String? linkedinUrl, githubUrl, imageUrl;
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -72,7 +72,7 @@ class TeamCard extends StatelessWidget {
                 Navigator.push(
                     context,
                     MaterialPageRoute(
-                      builder: (context) => LinkedPage(articleUrl: linkedUrl!),
+                      builder: (context) => LinkedPage(articleUrl: linkedinUrl!),
                     ));
               },
               child: Padding(

@@ -54,7 +54,7 @@ class _TeamPageState extends State<TeamPage> {
                     name: _items[index]["name"],
                     desc: _items[index]["desc"],
                     githubUrl: _items[index]["githubUrl"],
-                    linkedUrl: _items[index]["linkedinUrl"],
+                    linkedinUrl: _items[index]["linkedinUrl"],
                   );
                 },
               ),
