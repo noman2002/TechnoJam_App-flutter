@@ -5,15 +5,14 @@ import 'package:technojam_app/screens/linkedin_page.dart';
 class TeamCard extends StatelessWidget {
   const TeamCard({
     Key? key,
-     
     required this.name,
     required this.desc,
     this.imageUrl,
     this.linkedUrl,
     this.githubUrl,
   }) : super(key: key);
-  final String  name, desc;
-  final String? linkedUrl, githubUrl,imageUrl;
+  final String name, desc;
+  final String? linkedUrl, githubUrl, imageUrl;
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -26,10 +25,15 @@ class TeamCard extends StatelessWidget {
         leading: Container(
           child: ClipRRect(
             borderRadius: BorderRadius.circular(6),
-            child: Image.network(
-              imageUrl!,
-              fit: BoxFit.cover,
-            ),
+            child: imageUrl == null
+                ? Image.asset(
+                    "/assets/images/codingcat.png",
+                    fit: BoxFit.cover,
+                  )
+                : Image.network(
+                    imageUrl!,
+                    fit: BoxFit.cover,
+                  ),
           ),
         ),
         title: Padding(
@@ -53,12 +57,12 @@ class TeamCard extends StatelessWidget {
           mainAxisSize: MainAxisSize.min,
           children: [
             GestureDetector(
-              onTap: (){
-                 Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => GithubPage(articleUrl: githubUrl!),
-            ));
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => GithubPage(articleUrl: githubUrl!),
+                    ));
               },
               child: Padding(
                 padding:
@@ -69,12 +73,12 @@ class TeamCard extends StatelessWidget {
               ),
             ),
             GestureDetector(
-              onTap: (){
-                 Navigator.push(
-            context,
-            MaterialPageRoute(
-              builder: (context) => LinkedPage(articleUrl: linkedUrl!),
-            ));
+              onTap: () {
+                Navigator.push(
+                    context,
+                    MaterialPageRoute(
+                      builder: (context) => LinkedPage(articleUrl: linkedUrl!),
+                    ));
               },
               child: Padding(
                 padding: const EdgeInsets.symmetric(vertical: 12.0),
