@@ -5,14 +5,15 @@ import 'package:technojam_app/screens/linkedin_page.dart';
 class TeamCard extends StatelessWidget {
   const TeamCard({
     Key? key,
-    required this.imageUrl,
+     
     required this.name,
     required this.desc,
+    this.imageUrl,
     this.linkedUrl,
     this.githubUrl,
   }) : super(key: key);
-  final String imageUrl, name, desc;
-  final String? linkedUrl, githubUrl;
+  final String  name, desc;
+  final String? linkedUrl, githubUrl,imageUrl;
   @override
   Widget build(BuildContext context) {
     return Card(
@@ -26,7 +27,7 @@ class TeamCard extends StatelessWidget {
           child: ClipRRect(
             borderRadius: BorderRadius.circular(6),
             child: Image.network(
-              imageUrl,
+              imageUrl!,
               fit: BoxFit.cover,
             ),
           ),
