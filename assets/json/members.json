@@ -35,13 +35,302 @@
         },
         {
            
-            "name": "Sarthak",
+            "name": "Sarthak Agarwal",
             "desc": "Lead",
-            "imageUrl": "",
+            "imageUrl": "https://media-exp1.licdn.com/dms/image/C4E03AQH8XJpXpy18mg/profile-displayphoto-shrink_800_800/0/1626094736800?e=1634774400&v=beta&t=ubViZ6_GwbuBaHxgCgvAoV2B8rs66GPiV2yt9T_cv0o",
+            "githubUrl": "https://github.com/Sarthak2601",
+            "linkedinUrl": "http://www.linkedin.com/in/sarthak2601"
+          
+        },
+        {
+           
+            "name": "Shreyansh Deep",
+            "desc": "Lead",
+            "imageUrl": "https://avatars.githubusercontent.com/u/44379133?v=4",
+            "githubUrl": "https://github.com/shreyanshdeep",
+            "linkedinUrl": "https://www.linkedin.com/in/shreyanshdeep/"
+          
+        },
+        {
+           
+            "name": "Palak Mishra",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54719626?v=4",
+            "githubUrl": "https://github.com/PalakMishra-eq",
+            "linkedinUrl": "https://www.linkedin.com/in/palak-mishra-937716192/"
+          
+        },
+        {
+           
+            "name": "Danish Jamal",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/31315800?v=4",
+            "githubUrl": "https://github.com/danishjamal104",
+            "linkedinUrl": "https://in.linkedin.com/in/danishjamal104"
+          
+        },
+        {
+           
+            "name": "Anjali",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/49088065?v=4",
+            "githubUrl": "https://github.com/anjalidabas1999",
+            "linkedinUrl": "https://www.linkedin.com/in/anjali-dabas-4185b6181/"
+          
+        },
+        {
+           
+            "name": "Ansh Shankar",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/69162366?v=4",
+            "githubUrl": "https://github.com/anshshankar",
+            "linkedinUrl": "https://www.linkedin.com/in/ansh-shankar-22474289/"
+          
+        },
+        {
+           
+            "name": "Sneha Shukla",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/72255255?v=4",
+            "githubUrl": "https://github.com/Scarlet-Coder",
+            "linkedinUrl": "https://www.linkedin.com/in/sneha-shukla-8198b01b6"
+          
+        },
+        {
+           
+            "name": "Kartik Kumar",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54595695?v=4",
+            "githubUrl": "https://github.com/kartik800",
+            "linkedinUrl": "https://www.linkedin.com/in/kartik-aggarwal-b29728192/"
+          
+        },
+        {
+           
+            "name": "Isha Gupta",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54779831?v=4",
+            "githubUrl": "https://www.github.com/Isha2103",
+            "linkedinUrl": "https://www.linkedin.com/in/ishagupta20"
+          
+        },
+        {
+           
+            "name": "Shivansh Srivastava",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54775060?v=4",
+            "githubUrl": "http://github.com/shivansh2287",
+            "linkedinUrl": "https://www.linkedin.com/mwlite/in/shivansh-srivastava-b52a49192"
+          
+        },
+        {
+           
+            "name": "Ritwik Sinha",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54446880?v=4",
+            "githubUrl": "https://github.com/Ritwik880",
+            "linkedinUrl": "https://www.linkedin.com/in/ritwik-sinha-8854a2146"
+          
+        },
+        {
+           
+            "name": "Suraj chaudhary",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54902077?v=4",
+            "githubUrl": "https://github.com/surajcool203",
+            "linkedinUrl": "https://www.linkedin.com/in/suraj-chaudhary-848a63192"
+          
+        },
+        {
+           
+            "name": "Abhishek Varsheny",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/65502727?v=4",
+            "githubUrl": "https://github.com/Abhishek-7017",
+            "linkedinUrl": "https://www.linkedin.com/in/abhishek-varshney-4015111a1"
+          
+        },
+        {
+           
+            "name": "Ziyauddin zamir",
+            "desc": "Member",
+            "imageUrl": "https://cdn.dribbble.com/users/1787323/screenshots/11365170/media/0a6c4030d9a1b1b227bf90db9d7c6b1f.png",
             "githubUrl": "",
             "linkedinUrl": ""
           
+        },
+        {
+           
+            "name": "Ritika jaiswal",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/61064446?v=4",
+            "githubUrl": "https://github.com/18-Ritika",
+            "linkedinUrl": "http://www.linkedin.com/in/ritika-jaiswal-7b5515191"
+          
+        },
+        {
+           
+            "name": "Rishabh Kapoor",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/55848051?v=4",
+            "githubUrl": "https://github.com/Rishabhkapoor",
+            "linkedinUrl": "https://www.linkedin.com/in/rishabh--kapoor/"
+          
+        },
+        {
+           
+            "name": "Akshat Mittal",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54414398?v=4",
+            "githubUrl": "https://github.com/akshat-max",
+            "linkedinUrl": "https://www.linkedin.com/in/akshat-mittal29"
+          
+        },
+        {
+           
+            "name": "Shajid Equbal",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54468833?v=4",
+            "githubUrl": "https://github.com/SajidEqubal",
+            "linkedinUrl": "http://www.linkedin.com/in/sajid-shad-62218a182"
+          
+        },
+        {
+           
+            "name": "Piyush Chandra",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/55080793?v=4",
+            "githubUrl": "https://github.com/piyushchandra357",
+            "linkedinUrl": "https://www.linkedin.com/in/piyushchandra357"
+          
+        },
+        {
+           
+            "name": "Saransh Khulbe",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/55129013?v=4",
+            "githubUrl": "https://github.com/saranshkhulbe7",
+            "linkedinUrl": "https://www.linkedin.com/in/saransh-khulbe-5ab342189"
+          
+        },
+        {
+           
+            "name": "Areeb Ahmad",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/56149022?v=4",
+            "githubUrl": "https://github.com/Areeb786123",
+            "linkedinUrl": "https://www.linkedin.com/in/areeb-ahmad-b01b1a193/"
+          
+        },
+        {
+           
+            "name": "ISHITA MISHRA",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/66871418?v=4",
+            "githubUrl": "https://github.com/ish2207",
+            "linkedinUrl": "https://www.linkedin.com/in/ishita-mishra-22july"
+          
+        },
+        {
+           
+            "name": "Harshit Joshi",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/55291690?v=4",
+            "githubUrl": "https://github.com/github-harshit",
+            "linkedinUrl": "https://www.linkedin.com/in/harshit-joshi-a2b5b2189/"
+          
+        },
+        {
+           
+            "name": "Kuldeep Gupta",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54413717?v=4",
+            "githubUrl": "https://github.com/devdeadviz",
+            "linkedinUrl": "https://www.linkedin.com/in/kuldeep-gupta-871230194/"
+          
+        },
+        {
+           
+            "name": "Nischay Goyal",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/81116984?v=4",
+            "githubUrl": "https://github.com/NischayGoyal1",
+            "linkedinUrl": "https://www.linkedin.com/in/nischay-goyal-822526203/"
+          
+        },
+        {
+           
+            "name": "Ashwani Tripathi ",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/41874330?v=4",
+            "githubUrl": "https://www.github.com/betazeon",
+            "linkedinUrl": "https://www.linkedin.com/in/betazeon"
+          
+        },
+        {
+           
+            "name": "Abhishek Nigam",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/54509845?v=4",
+            "githubUrl": "https://www.github.com/abhi114",
+            "linkedinUrl": "https://www.linkedin.com/in/nabhi531"
+          
+        },
+        {
+           
+            "name": "Rohan kumar",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/48005711?v=4",
+            "githubUrl": "https://github.com/codebloded",
+            "linkedinUrl": "https://www.linkedin.com/in/rohan-kumar-024bb818a"
+          
+        },
+        {
+           
+            "name": "Siddharth Singh",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/55332990?v=4",
+            "githubUrl": "https://github.com/sidsinghrajput",
+            "linkedinUrl": "https://www.linkedin.com/in/siddharth-singh-1a2094194"
+          
+        },
+        {
+           
+            "name": "Aryan Verma",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/44608474?v=4",
+            "githubUrl": "http://www.github.com/3NCRY9T3R",
+            "linkedinUrl": "http://www.linkedin.com/in/skyr4"
+          
+        },
+        {
+           
+            "name": "Rishabh Jain",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/66913499?v=4",
+            "githubUrl": "http://www.github.com/rishabhjainfinal",
+            "linkedinUrl": "http://www.linkedin.com/in/Rishi23jain"
+          
+        },
+        {
+           
+            "name": "Sumati Gupta",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/56193184?v=4",
+            "githubUrl": "http://www.github.com/SumatiG",
+            "linkedinUrl": "https://www.linkedin.com/in/sumati-gupta-487603139"
+          
+        },
+        {
+           
+            "name": "Vaishnavi Tiwari",
+            "desc": "Member",
+            "imageUrl": "https://avatars.githubusercontent.com/u/60942298?v=4",
+            "githubUrl": "https://github.com/vaishu50",
+            "linkedinUrl": "https://www.linkedin.com/in/vaishnavi-tiwari-3a82731a2/"
+          
         }
+
         
        
         
