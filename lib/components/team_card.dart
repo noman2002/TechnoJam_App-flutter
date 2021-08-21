@@ -22,14 +22,15 @@ class TeamCard extends StatelessWidget {
       ),
       elevation: 4.0,
       child: ListTile(
-        leading: Container(
-          child: ClipRRect(
-              borderRadius: BorderRadius.circular(6),
+        leading: ClipRRect(
+            borderRadius: BorderRadius.circular(8),
+            child: Container(
+              width: 55,
               child: FadeInImage(
                 placeholder: AssetImage("assets/images/codingcat.png"),
                 image: NetworkImage(imageUrl!),
-              )),
-        ),
+              ),
+            )),
         title: Padding(
           padding: const EdgeInsets.only(bottom: 8.0),
           child: Text(
