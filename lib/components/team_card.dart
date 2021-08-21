@@ -25,13 +25,13 @@ class TeamCard extends StatelessWidget {
         leading: Container(
           child: ClipRRect(
               borderRadius: BorderRadius.circular(6),
-              child: FadeInImage.assetNetwork(
-                placeholder: "assets/images/codingcat.png",
-                image: imageUrl!,
+              child: FadeInImage(
+                placeholder: AssetImage("assets/images/codingcat.png"),
+                image: NetworkImage(imageUrl!),
               )),
         ),
         title: Padding(
-          padding: const EdgeInsets.all(8.0),
+          padding: const EdgeInsets.only(bottom: 8.0),
           child: Text(
             name,
             style: TextStyle(
