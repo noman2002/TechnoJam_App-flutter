@@ -12,6 +12,7 @@ class _HomePageState extends State<HomePage> {
     return Scaffold(
       backgroundColor: Color(0xFF233C4D),
       appBar: AppBar(
+        
         title: Text("TechnoJam"),
         backgroundColor: Color(0xFF233C4D),
       ),
