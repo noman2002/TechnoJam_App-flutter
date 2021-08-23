@@ -7,10 +7,8 @@ class HomePage extends StatefulWidget {
   _HomePageState createState() => _HomePageState();
 }
 
-
-
 class _HomePageState extends State<HomePage> {
- final FirebaseAuth _auth = FirebaseAuth.instance;
+  final FirebaseAuth _auth = FirebaseAuth.instance;
   bool isloggedin = false;
   User? user;
 
@@ -27,25 +25,27 @@ class _HomePageState extends State<HomePage> {
         });
     }
   }
-Widget _buildLoginButton() {
-    return isloggedin == true
+
+  Widget _buildFloatingButton() {
+    return isloggedin == false
         ? FloatingActionButton(
-            onPressed: (){},
-            child: Text("X"),
+            backgroundColor: Colors.pink,
+            onPressed: () {},
+            child: Icon(Icons.chat_bubble),
           )
         : Container();
   }
-
 
   @override
   Widget build(BuildContext context) {
     return Scaffold(
       backgroundColor: Color(0xFF233C4D),
       appBar: AppBar(
-
         title: Text("TechnoJam"),
         backgroundColor: Color(0xFF233C4D),
       ),
+      floatingActionButton: _buildFloatingButton(),
+      
     );
   }
 }
