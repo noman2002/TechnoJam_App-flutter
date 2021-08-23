@@ -26,13 +26,18 @@ class _HomePageState extends State<HomePage> {
     }
   }
 
+  @override
+  void initState() {
+    super.initState();
+    this.getUser();
+  }
+
   Widget _buildFloatingButton() {
-    return (isloggedin==true)
+    return (isloggedin == true)
         ? FloatingActionButton(
             backgroundColor: Colors.pink,
             onPressed: () {},
             child: Icon(Icons.chat_bubble),
-            
           )
         : Container();
   }
@@ -46,6 +51,7 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Color(0xFF233C4D),
       ),
       floatingActionButton: _buildFloatingButton(),
+      body:null ,
     );
   }
 }
