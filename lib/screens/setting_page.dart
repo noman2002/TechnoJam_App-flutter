@@ -13,6 +13,8 @@ class SettingPage extends StatelessWidget {
         title: Text("Settings"),
         backgroundColor: Color(0xFF233C4D),
       ),
+      // floatingActionButton: FloatingActionButton(onPressed:(){
+      // } ,child: ,),
       body: null,
     );
   }
