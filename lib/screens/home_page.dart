@@ -9,7 +9,7 @@ class HomePage extends StatefulWidget {
 
 class _HomePageState extends State<HomePage> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
- 
+  bool isloggedin = false;
   User? user;
 
   getUser() async {
@@ -21,13 +21,13 @@ class _HomePageState extends State<HomePage> {
       if (mounted)
         setState(() {
           this.user = firebaseUser;
-          
+          this.isloggedin = true;
         });
     }
   }
 
   Widget _buildFloatingButton() {
-    return user==null
+    return (user != null)
         ? FloatingActionButton(
             backgroundColor: Colors.pink,
             onPressed: () {},
@@ -45,7 +45,6 @@ class _HomePageState extends State<HomePage> {
         backgroundColor: Color(0xFF233C4D),
       ),
       floatingActionButton: _buildFloatingButton(),
-      
     );
   }
 }
