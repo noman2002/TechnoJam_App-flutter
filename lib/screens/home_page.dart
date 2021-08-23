@@ -1,3 +1,4 @@
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 
 class HomePage extends StatefulWidget {
@@ -9,10 +10,33 @@ class HomePage extends StatefulWidget {
 
 
 class _HomePageState extends State<HomePage> {
+ final FirebaseAuth _auth = FirebaseAuth.instance;
+  bool isloggedin = false;
+  User? user;
+
+  getUser() async {
+    User? firebaseUser = _auth.currentUser;
+    await firebaseUser?.reload();
+    firebaseUser = _auth.currentUser;
+
+    if (firebaseUser != null) {
+      if (mounted)
+        setState(() {
+          this.user = firebaseUser;
+          this.isloggedin = true;
+        });
+    }
+  }
+Widget _buildLoginButton() {
+    return isloggedin == true
+        ? FloatingActionButton(
+            onPressed: (){},
+            child: Text("X"),
+          )
+        : Container();
+  }
 
 
-
-  
   @override
   Widget build(BuildContext context) {
     return Scaffold(
