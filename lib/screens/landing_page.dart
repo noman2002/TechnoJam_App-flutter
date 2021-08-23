@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:technojam_app/screens/bottom_nav_bar.dart';
 import 'package:technojam_app/screens/login_page.dart';
 
 class LandingPage extends StatelessWidget {
@@ -78,12 +79,12 @@ class LandingPage extends StatelessWidget {
                         MaterialStateProperty.all<Color>(Colors.pink),
                   ),
                   onPressed: () {
-                     Navigator.push(
-                        context,
-                        MaterialPageRoute(
-                          builder: (context) => LoginPage(),
-                        ),
-                      );
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => LoginPage(),
+                      ),
+                    );
                   },
                   child: Text(
                     "Login",
@@ -114,7 +115,14 @@ class LandingPage extends StatelessWidget {
                     backgroundColor:
                         MaterialStateProperty.all<Color>(Colors.pink),
                   ),
-                  onPressed: () {},
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (context) => NavBar(),
+                      ),
+                    );
+                  },
                   child: Text(
                     "Use as Guest",
                     style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
