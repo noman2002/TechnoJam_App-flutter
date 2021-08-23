@@ -14,18 +14,27 @@ class _SettingPageState extends State<SettingPage> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: Color(0xFF233C4D),
-      appBar: AppBar(
-        title: Text("Settings"),
         backgroundColor: Color(0xFF233C4D),
-      ),
-      floatingActionButton: FloatingActionButton(
-        onPressed: () {
-          _auth.signOut();
-        },
-        child: null,
-      ),
-      body: null,
-    );
+        appBar: AppBar(
+          title: Text("Settings"),
+          backgroundColor: Color(0xFF233C4D),
+        ),
+        body: Column(
+          children: [
+            ListTile(
+              leading: Icon(
+                Icons.settings,
+                // color: Colors.black,
+              ),
+              title: Text(
+                "Settings",
+                textScaleFactor: 1.3,
+                style: TextStyle(
+                  color: Colors.black,
+                ),
+              ),
+            ),
+          ],
+        ));
   }
 }
