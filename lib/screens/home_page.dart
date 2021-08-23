@@ -27,11 +27,12 @@ class _HomePageState extends State<HomePage> {
   }
 
   Widget _buildFloatingButton() {
-    return (user != null)
+    return (isloggedin==true)
         ? FloatingActionButton(
             backgroundColor: Colors.pink,
             onPressed: () {},
             child: Icon(Icons.chat_bubble),
+            
           )
         : Container();
   }
