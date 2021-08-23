@@ -3,8 +3,6 @@ import 'package:flutter/material.dart';
 class SettingPage extends StatelessWidget {
   const SettingPage({Key? key}) : super(key: key);
 
-
-
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,8 +11,10 @@ class SettingPage extends StatelessWidget {
         title: Text("Settings"),
         backgroundColor: Color(0xFF233C4D),
       ),
-      // floatingActionButton: FloatingActionButton(onPressed:(){
-      // } ,child: ,),
+      floatingActionButton: FloatingActionButton(
+        onPressed: () {},
+        child: null,
+      ),
       body: null,
     );
   }
