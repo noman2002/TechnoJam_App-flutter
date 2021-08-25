@@ -40,9 +40,6 @@ checkAuthentication() async {
     this.checkAuthentication();
   }
 
-
-  
-
   login() async {
     if (_formKey.currentState!.validate()) {
       _formKey.currentState!.save();
