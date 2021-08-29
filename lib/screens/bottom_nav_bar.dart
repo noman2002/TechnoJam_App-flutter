@@ -3,7 +3,6 @@ import 'package:flutter/material.dart';
 import 'package:technojam_app/screens/home_page.dart';
 import 'package:technojam_app/screens/setting_page.dart';
 import 'package:technojam_app/screens/team_page.dart';
-
 import 'announcement_page.dart';
 
 class NavBar extends StatefulWidget {
