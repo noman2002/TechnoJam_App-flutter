@@ -33,6 +33,7 @@ dependencies:
   webview_flutter: ^2.0.12
   firebase_auth: ^3.0.2
   firebase_core: ^1.5.0
+  firebase_database: ^7.2.1
 
 dev_dependencies:
   flutter_test:

@@ -1,5 +1,6 @@
 import 'dart:convert';
 
+import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
 import 'package:technojam_app/components/team_card.dart';
@@ -13,7 +14,8 @@ class TeamPage extends StatefulWidget {
 
 class _TeamPageState extends State<TeamPage> {
   List _items = [];
-
+  final databaseReference = FirebaseDatabase.instance.reference();
+  late final data;
   Future<void> readJson() async {
     final String response =
         await rootBundle.loadString('assets/json/members.json');
@@ -23,6 +25,17 @@ class _TeamPageState extends State<TeamPage> {
       print(_items.length);
     });
   }
+  // void readJson() {
+  //   databaseReference.once().then((DataSnapshot snapshot) {
+  //     print('Data : ${snapshot.value}');
+  //    data = snapshot.value;
+  //   });
+
+  //   setState(() {
+  //     _items = data["members"];
+  //     print(_items.length);
+  //   });
+  // }
 
   @override
   void initState() {
