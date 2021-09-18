@@ -5,8 +5,7 @@
 
 
 
-TechnoJam, the technology community
- of the School of Computer Science and Engineering Galgotias University 
+TechnoJam, the technology community of the School of Computer Science and Engineering Galgotias University 
 was established in 2015 with the aim of working on a variety of new 
 projects that will give minds to creative thinking patterns for future 
 developers.
