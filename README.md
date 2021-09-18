@@ -11,10 +11,6 @@ was established in 2015 with the aim of working on a variety of new
 projects that will give minds to creative thinking patterns for future 
 developers.
 
-
-
-
-
 It is a community to promote and coordinate research and development through 
 students, through student industry partnerships that give students the 
 freedom and opportunities to work in a variety of technological fields, 
