@@ -23,12 +23,13 @@ class AnnouncementPage extends StatelessWidget {
                 title: "TechnoJam",
                 desc: "A tech community",
               ),
-              AnnouncementCard(
-                imageUrl:
-                    "https://avatars.githubusercontent.com/u/73706697?v=4",
-                title: "Web",
-                desc: "Web development workshop",
-              ),
+              // AnnouncementCard(
+              //   imageUrl:
+              //       "https://avatars.githubusercontent.com/u/73706697?v=4",
+              //   title: "Web",
+              //   desc: "Web development workshop",
+              // ),
+              
               AnnouncementCard(
                 imageUrl:
                     "https://avatars.githubusercontent.com/u/54404474?v=4",
